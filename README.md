@@ -1,1 +1,3 @@
 # PCA-Sentinel-2-Satellite-Imagery-Bands
+## Description:
+This project focuses on performing Principal Component Analysis (PCA) on Sentinel-2 satellite imagery bands. The primary objective is to extract meaningful information and reduce the dimensionality of the data while preserving its essential characteristics. The code reads multiple bands from Sentinel-2 imagery files, standardizes the data through z-score normalization, computes the covariance matrix, and extracts eigenvalues and eigenvectors. The top principal components are selected, and the original data is projected onto these components. The standardized RGB image is visualized, and a scatter plot of the data in the space defined by the first two principal components is generated.
